@@ -5,7 +5,8 @@
 * Date submitted: 2016/11/29
 */
 
-#pragma once
+#ifndef PLAYLIST_H
+#define PLAYLIST_H
 #include <iostream>
 #include <cstring>
 using namespace std;
@@ -36,3 +37,6 @@ class PlaylistNode {
 	PlaylistNode* nextNodePtr;
 
 	};
+
+#endif
+ 

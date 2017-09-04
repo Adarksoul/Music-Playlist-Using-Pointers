@@ -5,10 +5,10 @@
 * Date submitted: 2016/11/29
 */
 
-#include<iostream>
-#include<fstream>
-#include <string>
 #include "Playlist.h"
+#include <iostream>
+#include <fstream>
+#include <string>
 using namespace std;
 
 void PrintMenu(string name, PlaylistNode* headObj, PlaylistNode* lastObj) {
